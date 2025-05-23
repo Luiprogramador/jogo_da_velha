@@ -6,7 +6,7 @@ def carregar_config_db():
     import os
     return {
         'user': os.getenv('DB_USER', 'root'),
-        'password': os.getenv('DB_PASSWORD', 'ceub123456'),
+        'password': os.getenv('DB_PASSWORD', 'lui1234'),
         'host': os.getenv('DB_HOST', 'localhost')
     }
 
